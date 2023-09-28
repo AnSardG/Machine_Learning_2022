@@ -19,3 +19,8 @@ num2 = input("Enter another number: ")
 # This will raise an error since the function "input" reads a
 # string and you cannot substract two strings this way
 print (num1 - num2)
+# This way will work by casting the data type after reading
+# the input, obviously as long as the type can be converted
+num1 = (int)(input("Enter a number: "))
+num2 = (int)(input("Enter another number: "))
+print (num1 - num2)
