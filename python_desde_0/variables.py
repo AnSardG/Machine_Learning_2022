@@ -1,18 +1,24 @@
 """
-Así comentamos en varias líneas de texto
-esto son más comentarios
-variables locas
+This is how we do a multiline comment
+here are some more comments
+dummy variables
 """
-# declaración de alfanuméricos
-nombreAlumno = "Antonio es mi nombre"
-# declaración de enteros
-edadAlumno = 25
-# declaración de decimales
-peso = 63.57
-# declaración de booleanos
-nublado = True
-nublado = False
-nublado = not nublado
-# Aquí imprimimos las variables con cadenas literales alfanuméricas
-print(nombreAlumno, "tengo", edadAlumno, "años. Peso:", peso, "kg.")
-print("¿Está nublado?", nublado)
+# alphanumeric declaration
+studentName = "My name is Antonio"
+# integer declaration
+studentAge = 25
+# decimal declaration
+weight = 63.57
+# boolean declaration
+cloudy = True
+cloudy = False
+cloudy = not cloudy
+# We print our variables with some more alphanumeric strings
+print(studentName, "I'm", studentAge, "years old. Weight:", weight, "kg.")
+print("Is it cloudy?", cloudy)
+# Data types are classes in Python (?)
+print(type(studentName))
+print(type(studentAge))
+print(type(weight))
+print(type(cloudy))
+
