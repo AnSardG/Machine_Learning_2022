@@ -42,7 +42,7 @@ def calculateSumAndSubstraction(num1, num2):
 
 num1 = 3
 num2 = 2
-# So good that you can assign two variables at once like this from the return, makes total sense
+# You can assign two variables at once like this from the return, makes total sense
 sum, substraction = calculateSumAndSubstraction(num1, num2)
 print ("The sum of",num1,"+",num2,"is:",sum)
 print("The substraction of",num1,"-",num2,"is:",substraction)
