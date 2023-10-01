@@ -62,4 +62,4 @@ for i in range(len(patients)):
         print("Key: " + k + ". Value:",v)
         if (k == "Age" and v <25):
             print("This patient is younger than 25 years old")
-        print("------------------------")    
+        print("------------------------")
