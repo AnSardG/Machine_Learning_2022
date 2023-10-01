@@ -38,3 +38,7 @@ patient3 = {"Name":"Antonio", "Age":19, "Weight":55.5, "Smokes":False}
 # You can add dictionaries to a list, this is really powerful
 patients = [patient, patient2, patient3]
 print(patients)
+# In general dictionaries' keys are Strings but you can also use an  integer as the key
+footballPlayers = {1:"Joseph",2:"Frederic",3:"Juan"}
+print(footballPlayers)
+# But of course it doesn't make much sense since lists are better in this cases
