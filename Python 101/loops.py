@@ -30,9 +30,10 @@ print("Maximum capacity of participants reached.")
 # This is another way of doing a for loop
 for x in range(2, 20):
     print(x)
-
-# And now the last way of doing a for loop, with the increment (the last parameter)
-# note: in the last iteration, when X reaches 92 the increment wont be happening again like other languages
+"""
+And now the last way of doing a for loop, with the increment (the last parameter)
+note: in the last iteration, when X reaches 92 the increment wont be happening again like other languages
+"""
 for x in range(2, 100, 10):
     print(x)
 
