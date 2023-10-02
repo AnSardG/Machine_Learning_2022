@@ -43,8 +43,8 @@ In general dictionaries' keys are Strings but you can also use an  integer
 as the key;but of course it doesn't make much sense since lists are better
 in this cases.
 """
-footballPlayers = {1:"Joseph",2:"Frederic",3:"Juan"}
-print(footballPlayers)
+football_players = {1:"Joseph",2:"Frederic",3:"Juan"}
+print(football_players)
 
 """
 Dictionaries aren't arrays (sucession of items) but you can manage them as 

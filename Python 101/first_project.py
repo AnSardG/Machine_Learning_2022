@@ -6,7 +6,7 @@ database = list()
 os.system("cls")
 
 # Functions
-def showMenu():
+def show_menu():
     print("\n\t\t🏋️  1.- Upload new patient.")
     print("\t\t🕵️  2.- Search for a patient by name.")
     print("\t\t🧙 3.- List every patient.")
@@ -15,7 +15,7 @@ def showMenu():
     os.system("cls")
     return option
 
-def isValidOption(option): 
+def is_valid_option(option): 
     valid = False    
     msg = ""
     if option.isdigit():
@@ -31,31 +31,31 @@ def isValidOption(option):
 print("Welcome to the clinical historic system of the hospital 🏥")
 option = 0
 while option != 4:
-    option = showMenu()
-    valid, option, msg = isValidOption(option)
+    option = show_menu()
+    valid, option, msg = is_valid_option(option)
     print(msg)
     if valid:
         if option == 1:
             name = input("\tEnter the name of the patient: ")
-            clinicHistory = input("\tEnter the patient's clinic history: ")
-            patient = {"name":name, "clinicHistory":clinicHistory}
+            clinic_history = input("\tEnter the patient's clinic history: ")
+            patient = {"name":name, "clinic_history":clinic_history}
             database.append(patient)
             print("Patient added.")
         elif option == 2:
             found = False
-            inputName = input("\tEnter the name of the patient you want to find: ").lower()
+            input_name = input("\tEnter the name of the patient you want to find: ").lower()
             for i in range(len(database)):
                 for k, v in database[i].items():
-                    if k == "name" and v.lower() == inputName:
+                    if k == "name" and v.lower() == input_name:
                         found = True
-                        print("\tPATIENT FOUND | CLINIC HISTORY: ", database[i]["clinicHistory"])
+                        print("\tPATIENT FOUND | CLINIC HISTORY: ", database[i]["clinic_history"])
             if not found:
                 print("\tPatient not found.")
         elif option == 3:
             print("LISTING THE ENTIRE DATABASE OF PATIENTS...\n")
             for i in range(len(database)):
                 # The method "rjust()"" from String returns a right-justified string with a padding made of spaces
-                    print("\tName:".rjust(10),database[i]["name"],"\tClinic history:".rjust(10),database[i]["clinicHistory"])                    
+                    print("\tName:".rjust(10),database[i]["name"],"\tClinic history:".rjust(10),database[i]["clinic_history"])                    
             print("\nEND OF DATABASE.")
         else:
             print("See you soon.")

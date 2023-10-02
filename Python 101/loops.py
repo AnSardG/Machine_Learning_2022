@@ -9,10 +9,10 @@ for x in range(7):
     total += 5
     print("The total is:", total)
 # Practice exercise with for loops
-partMax = (int)(input("Please introduce the amount of participants: "))
-print("The system will be configured to accept", partMax,
+part_max = (int)(input("Please introduce the amount of participants: "))
+print("The system will be configured to accept", part_max,
       "participants, from now on you can manage this exact number of participants and no more")
-for part in range(partMax):
+for part in range(part_max):
     inscription = ""
     while inscription != "y":
         name = input("Introduce your name: ")
