@@ -29,3 +29,4 @@ Jupyter Exercises/X-Ray Classifier/chest_xray/train/PNEUMONIA/.DS_Store
 Jupyter Exercises/X-Ray Classifier/chest_xray/val/.DS_Store
 Jupyter Exercises/X-Ray Classifier/chest_xray/val/NORMAL/.DS_Store
 Jupyter Exercises/X-Ray Classifier/chest_xray/val/PNEUMONIA/.DS_Store
+*.npy
