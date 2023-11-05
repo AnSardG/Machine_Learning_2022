@@ -20,3 +20,5 @@ Jupyter Exercises/Classification/meteo/diario.csv
 Jupyter Exercises/Classification/meteo/minuto.csv
 Jupyter Exercises/Aggregation/meteo/diario.csv
 Jupyter Exercises/Aggregation/meteo/minuto.csv
+*.jpeg
+Jupyter Exercises/X-Ray Classifier/chest_xray/train/NORMAL/.DS_Store
